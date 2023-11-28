@@ -24,9 +24,28 @@ margin: 300px;
 margin-right: 150px;
 }
 
+.card__container{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
-.header__shop > span{
-    display: inline-block;
-    vertical-align: middle;
-    
+#product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 20px;
+    min-width: 300px;
+    background-color: grey;
+    min-height: 350px;
+    width: calc(100% / 3 - 50px);
+}
+
+ .card img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
 }
